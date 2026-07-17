@@ -1,9 +1,12 @@
 # Daig's Japanese Conjugation Drill
 
-A personal fork of the Japanese verb/adjective conjugation drill, kept for
-ongoing study and development.
+A fork of the Japanese verb/adjective conjugation drill, for the Daiwa Scholars
+to practise on the go.
 
-**Run it:** open `conjugation/drill.html` in a browser. No build step.
+**▶ Practise:** <https://daiwa-scholars-two-thousand-twenty-vibe.github.io/daigs-japanese-conjugation-drill/conjugation/drill.html>
+
+**Run it locally:** open `conjugation/drill.html` — no build step. (Serve it,
+e.g. `python3 -m http.server`, if your browser blocks ES modules on `file://`.)
 
 ---
 
@@ -19,29 +22,39 @@ other people's work, not mine:
 
 Further commits in the history from **Maurice Ampt** and **toxinu**.
 
-This repo was duplicated from `LandonJPGinn/jp-verb-quiz` (itself a fork of
-`wkdonc/wkdonc.github.io`) **with the full upstream git history preserved**, so
-every original author's commits and authorship remain intact and inspectable:
+This is a **GitHub fork** of `LandonJPGinn/jp-verb-quiz` (itself a fork of
+`wkdonc/wkdonc.github.io`), so the lineage is recorded permanently: the repo
+page shows *"forked from LandonJPGinn/jp-verb-quiz"*, GitHub lists the ultimate
+source as `wkdonc/wkdonc.github.io`, and every original author's commits and
+authorship remain intact:
 
 ```bash
 git log --format='%an' | sort -u     # every contributor, upstream included
 ```
 
-### Licensing status — read this before doing anything public
+At the time of forking that's 65 commits from Don (`doncr`), 27 from Landon,
+plus Maurice Ampt and toxinu — against a handful from us.
+
+### Licensing status — please read
 
 **Neither upstream repo carries a license**, which by default means *all rights
-reserved*. Practical consequences:
+reserved*. What that means in practice:
 
-- This copy is **private**, for personal study. Keep it that way.
-- **Do not publish, deploy or redistribute** it — no GitHub Pages, no public
-  repo — without permission from Don and Landon, or unless they add an explicit
-  open-source licence upstream.
-- **Do not add a `LICENSE` file here.** We have no right to license someone
-  else's work.
+- This exists as a **GitHub fork**, which the [GitHub Terms of Service][tos]
+  expressly permit for public repositories: by making a repo public you "agree
+  to allow others to view and fork" it. That ToS grant is the *entire* basis on
+  which this copy exists — the same basis as Landon's own fork of Don's work.
+- It is served via GitHub Pages, as Don's and Landon's versions both are.
+- **Do not add a `LICENSE` file.** We have no right to license someone else's
+  work, and adding one would misrepresent the position.
+- **Do not lift this code off GitHub** — copying it into another project or
+  redistributing it elsewhere goes beyond the ToS fork grant.
+- If Don or Landon ever object, take the Pages site down without argument.
 
-If this should ever go public, the clean routes are: ask upstream to add a
-licence (e.g. MIT), or fork publicly on GitHub, which the GitHub Terms of
-Service do expressly permit.
+For firmer ground, the right move is to ask upstream to add an explicit
+open-source licence (e.g. MIT), which would benefit everyone downstream.
+
+[tos]: https://docs.github.com/en/site-policy/github-terms-of-service#5-license-grant-to-other-users
 
 ---
 
